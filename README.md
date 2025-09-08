@@ -40,7 +40,7 @@ This method uses compiler symbol information rather than syntax trees for more a
         <CompilerVisibleProperty Include="PlantUmlGenerator_OutputDir" />
     </ItemGroup>
     <PropertyGroup>
-        <PlantUmlGenerator_OutputDir>$(SolutionDir)umls\generated-uml</PlantUmlGenerator_OutputDir>
+        <PlantUmlGenerator_OutputDir>$(SolutionDir)generated-uml</PlantUmlGenerator_OutputDir>
     </PropertyGroup>
     ```
 

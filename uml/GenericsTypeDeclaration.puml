@@ -1,6 +1,0 @@
-@startuml
-class "GenericsType`1"<T1> {
-}
-class "GenericsType`2"<T1,T2> {
-}
-@enduml

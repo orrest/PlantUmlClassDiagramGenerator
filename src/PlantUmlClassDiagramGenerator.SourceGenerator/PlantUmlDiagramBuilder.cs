@@ -98,7 +98,12 @@ internal class PlantUmlDiagramBuilder(
         sb.AppendLine($"@startuml {Symbol.GetMetadataName()}");
 
         // !theme
-        sb.AppendLine($"!theme reddress-darkblue");
+        sb.AppendLine("!theme reddress-darkblue");
+
+        // straight line
+        sb.AppendLine("skinparam linetype ortho");
+
+        sb.AppendLine();
 
         //!include section
         if (IncludeItems.Count > 0)

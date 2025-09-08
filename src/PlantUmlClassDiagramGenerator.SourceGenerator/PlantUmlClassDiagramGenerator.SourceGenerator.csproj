@@ -15,24 +15,22 @@
 		<TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);PackBuildOutputs</TargetsForTfmSpecificContentInPackage>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 
-		<Title>PlantUmlClassDiagramGenerator.SourceGenerator</Title>
-		<Authors>pierre3</Authors>
+		<Title>PlantUmlClassDiagramSourceGenerator</Title>
+		<Authors>orrest</Authors>
+		<PackageId>PlantUML.ClsDig.Src.Gen</PackageId>
 		<PackageProjectUrl>https://github.com/pierre3/PlantUmlClassDiagramGenerator/tree/feature/source-generator/src/PlantUmlClassDiagramGenerator.SourceGenerator</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/pierre3/PlantUmlClassDiagramGenerator/tree/feature/source-generator/src/PlantUmlClassDiagramGenerator.SourceGenerator</RepositoryUrl>
-		<Description>This tool is designed to generate PlantUML class diagrams from C# source code. Leveraging SourceGenerator functionality, it analyzes the source code and produces PlantUML class diagrams.</Description>
-		<Copyright>© 2024 pierre3</Copyright>
+		<RepositoryUrl>https://github.com/orrest/PlantUmlClassDiagramGenerator</RepositoryUrl>
+		<Description>This tool is designed to generate PlantUML class diagrams from C# source code. Leveraging SourceGenerator functionality, it analyzes the source code and produces PlantUML class diagrams. (This is a fork from original project)</Description>
+		<Copyright>© 2025 orrest</Copyright>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>plantuml;SourceGenerator</PackageTags>
 		<PackageReleaseNotes>
-[1.1.0]
-- Suppress the compiler-generated members of record types in source generator.
-- Added ".g" to attribute filenames to indicate generated code and resolved code analysis warnings.
+[1.1.1]
+- A forked version by orrest
 		</PackageReleaseNotes>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<AssemblyVersion>1.1.0.0</AssemblyVersion>
-		<FileVersion>1.1.0.0</FileVersion>
-		<Version>1.1.0</Version>
+		<Version>1.0.0</Version>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" PrivateAssets="all" />

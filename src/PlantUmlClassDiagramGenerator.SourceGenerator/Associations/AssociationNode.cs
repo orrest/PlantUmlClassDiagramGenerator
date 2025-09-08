@@ -4,13 +4,13 @@ namespace PlantUmlClassDiagramGenerator.SourceGenerator.Associations;
 
 public record AssociationNode(string Node)
 {
-    public static AssociationNode Association = new("--");
-    public static AssociationNode Aggregation = new("o--");
-    public static AssociationNode Composition = new("*--");
-    public static AssociationNode Dependency = new("..>");
-    public static AssociationNode Inheritance = new("<|--");
-    public static AssociationNode Realization = new("<|..");
-    public static AssociationNode Nest = new("+..");
+    public static AssociationNode Association = new("-left-");
+    public static AssociationNode Aggregation = new("o-left-");
+    public static AssociationNode Composition = new("*-left-");
+    public static AssociationNode Dependency = new(".left.>");
+    public static AssociationNode Inheritance = new("<|-down-");
+    public static AssociationNode Realization = new("<|.down.");
+    public static AssociationNode Nest = new("+.right.");
 
     public string Node { get; } = Node;
 

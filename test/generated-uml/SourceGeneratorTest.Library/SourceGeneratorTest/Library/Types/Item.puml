@@ -1,6 +1,0 @@
-@startuml Item
-class Item <<record>>  {
-    + Name : string <<get>> <<set>>
-    + Value : double <<get>> <<set>>
-}
-@enduml

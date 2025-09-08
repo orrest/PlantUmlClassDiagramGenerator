@@ -1,9 +1,0 @@
-@startuml Moon
-class Moon <<sealed>>  {
-    + Moon(name : string, diameter : double, mass : double, distanceFromPlanet : double)
-    + <<readonly>> Name : string <<get>>
-    + <<readonly>> Diameter : double <<get>>
-    + <<readonly>> Mass : double <<get>>
-    + <<readonly>> DistanceFromPlanet : double <<get>>
-}
-@enduml

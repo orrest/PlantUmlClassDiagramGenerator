@@ -1,5 +1,0 @@
-@startuml Parent::ChildeB::GrandchildA
-class Parent::ChildeB::GrandchildA  {
-    + GrandchildA()
-}
-@enduml

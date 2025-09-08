@@ -1,7 +1,0 @@
-@startuml IItemProvider
-!include ./Item.puml
-interface IItemProvider  {
-    + <<readonly>> Item : Item <<get>>
-}
-IItemProvider o-- Item : Item
-@enduml

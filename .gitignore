@@ -214,3 +214,5 @@ ModelManifest.xml
 # Intellij files
 .idea
 
+# Test Generated
+test/generated-uml/

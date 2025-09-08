@@ -1,7 +1,0 @@
-@startuml Internal
-class Internal  {
-    ~ fieldF : int
-    ~ PropF : string <<get>> <<set>>
-    ~ MethodF() : void
-}
-@enduml

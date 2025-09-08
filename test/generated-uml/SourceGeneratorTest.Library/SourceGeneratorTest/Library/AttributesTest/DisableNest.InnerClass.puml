@@ -1,6 +1,0 @@
-@startuml DisableNest::InnerClass
-class DisableNest::InnerClass  {
-    + Value : int <<get>> <<set>>
-    + InnerClass()
-}
-@enduml

@@ -96,6 +96,10 @@ internal class PlantUmlDiagramBuilder(
         var sb = new StringBuilder();
         //@startuml
         sb.AppendLine($"@startuml {Symbol.GetMetadataName()}");
+
+        // !theme
+        sb.AppendLine($"!theme reddress-darkblue");
+
         //!include section
         if (IncludeItems.Count > 0)
         {

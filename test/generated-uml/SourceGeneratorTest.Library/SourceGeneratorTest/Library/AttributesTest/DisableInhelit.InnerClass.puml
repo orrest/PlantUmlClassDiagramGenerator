@@ -1,6 +1,0 @@
-@startuml DisableInhelit::InnerClass
-class DisableInhelit::InnerClass  {
-    + Value : int <<get>> <<set>>
-    + InnerClass()
-}
-@enduml

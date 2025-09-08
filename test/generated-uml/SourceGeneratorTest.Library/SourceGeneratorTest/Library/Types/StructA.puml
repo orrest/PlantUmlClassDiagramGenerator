@@ -1,8 +1,0 @@
-@startuml StructA
-struct StructA <<sealed>>  {
-    + StructA()
-    + X : float <<get>> <<set>>
-    + Y : float <<get>> <<set>>
-    + Z : float <<get>> <<set>>
-}
-@enduml

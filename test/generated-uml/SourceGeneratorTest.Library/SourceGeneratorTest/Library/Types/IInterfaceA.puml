@@ -1,5 +1,0 @@
-@startuml IInterfaceA
-interface IInterfaceA  {
-    + MethodA() : void
-}
-@enduml

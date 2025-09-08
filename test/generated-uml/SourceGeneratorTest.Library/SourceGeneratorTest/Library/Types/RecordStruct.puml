@@ -1,7 +1,0 @@
-@startuml RecordStruct
-struct RecordStruct <<sealed>> <<record>>  {
-    + X : float <<get>> <<set>>
-    + Y : float <<get>> <<set>>
-    + Z : float <<get>> <<set>>
-}
-@enduml

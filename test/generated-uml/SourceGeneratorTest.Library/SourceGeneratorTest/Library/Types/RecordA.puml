@@ -1,6 +1,0 @@
-@startuml RecordA
-class RecordA <<record>>  {
-    + Name : string <<get>> <<set>>
-    + Value : int <<get>> <<set>>
-}
-@enduml

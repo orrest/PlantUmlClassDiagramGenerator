@@ -7,18 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA69B69C-C80
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D0EC41DE-8A29-463D-8915-CB623E02CDA0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator.Library", "src\PlantUmlClassDiagramGenerator.Library\PlantUmlClassDiagramGenerator.Library.csproj", "{F6D73496-8660-4A4C-B88A-470990897D7E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator", "src\PlantUmlClassDiagramGenerator\PlantUmlClassDiagramGenerator.csproj", "{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGeneratorTest", "test\PlantUmlClassDiagramGeneratorTest\PlantUmlClassDiagramGeneratorTest.csproj", "{1A5C78F0-D0E1-4146-A035-F13EF8BE542A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{087C1D45-1710-4460-8C0D-91C76073A739}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantUmlClassDiagramGenerator.Attributes", "src\PlantUmlClassDiagramgenerator.Attributes\PlantUmlClassDiagramGenerator.Attributes.csproj", "{73621E9E-991E-4930-A78A-B6BEAADF15B6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceGeneratorTest", "test\SourceGeneratorTest\SourceGeneratorTest.csproj", "{BC099683-E481-4BA2-9278-6ABDB28534DC}"
 EndProject
@@ -32,22 +24,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6D73496-8660-4A4C-B88A-470990897D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6D73496-8660-4A4C-B88A-470990897D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6D73496-8660-4A4C-B88A-470990897D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6D73496-8660-4A4C-B88A-470990897D7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A5C78F0-D0E1-4146-A035-F13EF8BE542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A5C78F0-D0E1-4146-A035-F13EF8BE542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A5C78F0-D0E1-4146-A035-F13EF8BE542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A5C78F0-D0E1-4146-A035-F13EF8BE542A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{73621E9E-991E-4930-A78A-B6BEAADF15B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{73621E9E-991E-4930-A78A-B6BEAADF15B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{73621E9E-991E-4930-A78A-B6BEAADF15B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{73621E9E-991E-4930-A78A-B6BEAADF15B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC099683-E481-4BA2-9278-6ABDB28534DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC099683-E481-4BA2-9278-6ABDB28534DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC099683-E481-4BA2-9278-6ABDB28534DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,10 +41,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F6D73496-8660-4A4C-B88A-470990897D7E} = {BA69B69C-C802-4077-B693-8845A154AD13}
-		{1575B814-EAF9-4DD2-9AB4-E8ECFDD58B2C} = {BA69B69C-C802-4077-B693-8845A154AD13}
-		{1A5C78F0-D0E1-4146-A035-F13EF8BE542A} = {D0EC41DE-8A29-463D-8915-CB623E02CDA0}
-		{73621E9E-991E-4930-A78A-B6BEAADF15B6} = {BA69B69C-C802-4077-B693-8845A154AD13}
 		{BC099683-E481-4BA2-9278-6ABDB28534DC} = {D0EC41DE-8A29-463D-8915-CB623E02CDA0}
 		{26525450-7352-470B-B556-34269D828BD8} = {BA69B69C-C802-4077-B693-8845A154AD13}
 		{CB61E9FE-757A-4BED-BD45-1E6D6180740F} = {D0EC41DE-8A29-463D-8915-CB623E02CDA0}

@@ -15,38 +15,12 @@ The tool analyzes C# source code and generates standard PlantUML class diagrams,
 
 ---
 
-# Three Usage Methods
-
-## 1. .NET Global Tool
-
-Install as a global command-line tool `puml-gen` via NuGet:
-
-```powershell
-dotnet tool install --global PlantUmlClassDiagramGenerator  
-```
-
-Run it with:
-
-```powershell
-puml-gen InputPath [OutputPath] [options]
-```
-
-See the original [README](https://github.com/pierre3/PlantUmlClassDiagramGenerator?tab=readme-ov-file#net-core-global-tools).
-
----
-
-## 2. Visual Studio Code Extension
-
-See the original [README](https://github.com/pierre3/PlantUmlClassDiagramGenerator?tab=readme-ov-file#visual-studio-code-extension).
-
----
-
-## 3. Roslyn Source Generator
+# Roslyn Source Generator
 
 The most advanced approach: automatically generating class diagrams at compile time using a Source Generator.  
 This method uses compiler symbol information rather than syntax trees for more accurate code structure analysis.
 
-### Steps:
+## Steps:
 
 1. Install the NuGet package in the project you want to generate class diagrams from:
 
@@ -89,10 +63,10 @@ See the original [README](https://github.com/pierre3/PlantUmlClassDiagramGenerat
 2. Specified the direction of the associations in the source generator:
     - Implementations and inheritances are **vertical**
     - Compositions, aggregations, and dependencies are **horizontal**
-3. Documented the source generator usage in the project-level README.
 
 ---
 
 # Note
 
-If the theme is not previewing correctly in VS Code, consider [updating the PlantUML version](https://github.com/qjebbs/vscode-plantuml/issues/407#issuecomment-925692712).
+- If the theme is not previewing correctly in VS Code, consider [updating the PlantUML version](https://github.com/qjebbs/vscode-plantuml/issues/407#issuecomment-925692712).
+- For the usage of VS extension and the dotnet CLI tool, see the original project.

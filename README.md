@@ -52,6 +52,7 @@ This method uses compiler symbol information rather than syntax trees for more a
     ```csharp
     [assembly: PlantUmlClassDiagramGenerator.SourceGenerator.Attributes.PlantUmlDiagram]
     ```
+4. Build the project, and you'll see the `.puml` files in the `PlantUmlGenerator_OutputDir` folder you specified.
 
 See the original [README](https://github.com/pierre3/PlantUmlClassDiagramGenerator/blob/master/src/PlantUmlClassDiagramGenerator.SourceGenerator/README.md).
 
